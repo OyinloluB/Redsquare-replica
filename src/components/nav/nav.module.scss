@@ -1,0 +1,33 @@
+.nav {
+  padding: 100px 170px 0;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_shapes {
+    width: 35px;
+    height: 35px;
+    background-color: #e31f3c;
+    cursor: pointer;
+  }
+
+  &_cta_one {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0;
+      font-size: 1.25em;
+      line-height: 27px;
+      font-family: "Circle-book";
+      cursor: pointer;
+      color: #fefefe;
+    }
+
+    img {
+      margin-left: 15px;
+    }
+  }
+}

@@ -1,13 +1,32 @@
+@font-face {
+  font-family: "Youngserif";
+  src: local("Youngserif"),
+    url("./assets/fonts/youngserif/youngserif-regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Circle-book";
+  src: local("Circlebook"),
+    url("./assets/fonts/circle-book/circlebook.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Circular-bold";
+  src: local("CircularBold"),
+    url("./assets/fonts/circular-bold/CircularBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  font-family: "youngserifregular";
+  color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
