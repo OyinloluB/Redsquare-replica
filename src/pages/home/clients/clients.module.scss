@@ -1,0 +1,27 @@
+.clients {
+  padding: 90px 170px 0;
+
+  &_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  &_title {
+    h3 {
+      font-family: "Circle-book";
+      color: #858585;
+      font-size: 1.125em;
+    }
+  }
+
+  &_list {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      margin: 0;
+      font-size: 1.66667vw;
+      line-height: 3.33333vw;
+    }
+  }
+}

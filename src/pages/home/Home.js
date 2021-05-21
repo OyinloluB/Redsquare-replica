@@ -1,4 +1,5 @@
 import React from "react";
+import Clients from "./clients/Clients";
 import styles from "./home.module.scss";
 import Images from "./images/Images";
 
@@ -21,6 +22,7 @@ const Home = () => {
           create what comes next.
         </p>
       </section>
+      <Clients />
     </div>
   );
 };
