@@ -1,9 +1,16 @@
 .clients {
-  padding: 90px 170px 0;
+  padding: 0 170px 0;
+
+  &_line {
+    height: 1px;
+    background: #f0f0f01a;
+    margin: 90px 0;
+  }
 
   &_wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 45% 55%;
+    align-items: flex-start;
   }
 
   &_title {
@@ -11,6 +18,7 @@
       font-family: "Circle-book";
       color: #858585;
       font-size: 1.125em;
+      margin: 0;
     }
   }
 
