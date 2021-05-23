@@ -1,0 +1,23 @@
+.footer {
+  padding: 0 170px 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_lhs {
+    h4,
+    span {
+      font-size: 4em;
+      letter-spacing: -3px;
+      line-height: 66px;
+      font-family: "Circle-book";
+      margin: 0;
+    }
+
+    span {
+      color: #e31f3c;
+      font-weight: bold;
+    }
+  }
+}

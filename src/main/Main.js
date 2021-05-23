@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/footer/Footer";
 // import styles from "./main.module.scss";
 
 import Nav from "../components/nav/Nav";
@@ -9,6 +10,7 @@ const Main = () => {
     <div>
       <Nav />
       <Home />
+      <Footer />
     </div>
   );
 };
