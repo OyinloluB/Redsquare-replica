@@ -1,9 +1,9 @@
 .footer {
-  padding: 0 170px 90px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 5px 170px 90px;
+  font-family: "Circle-book";
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: flex-end;
 
   &_lhs {
     h4,
@@ -11,13 +11,42 @@
       font-size: 4em;
       letter-spacing: -3px;
       line-height: 66px;
-      font-family: "Circle-book";
       margin: 0;
     }
 
     span {
       color: #e31f3c;
       font-weight: bold;
+    }
+  }
+
+  &_rhs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_socials {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 50%;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &_locations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h5 {
+      color: #858585;
+      font-size: 1.125em;
+      margin-bottom: 0;
     }
   }
 }
