@@ -1,4 +1,5 @@
 import React from "react";
+import Cta from "../components/cta/Cta";
 import Footer from "../components/footer/Footer";
 // import styles from "./main.module.scss";
 
@@ -11,6 +12,7 @@ const Main = () => {
       <Nav />
       <Home />
       <Footer />
+      <Cta />
     </div>
   );
 };
