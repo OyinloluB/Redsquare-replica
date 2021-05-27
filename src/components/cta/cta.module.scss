@@ -4,12 +4,10 @@
   overflow: hidden;
   position: relative;
   font-family: "Circle-book";
-  // box-sizing: border-box;
 
   &_wrapper {
     height: 100%;
     overflow: hidden;
-    // position: absolute;
   }
 
   &_hero {
@@ -26,13 +24,11 @@
     position: relative;
     z-index: 1;
     opacity: 1;
-    // padding: 2vh;
 
     h3 {
       font-size: 1.5em;
       cursor: pointer;
       color: #fefefe;
-      // line-height: 10vh;
       margin: 0;
     }
   }
