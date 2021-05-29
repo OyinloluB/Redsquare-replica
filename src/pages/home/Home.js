@@ -1,13 +1,73 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Clients from "./clients/Clients";
 import styles from "./home.module.scss";
 import Images from "./images/Images";
+
+const variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
 
 const Home = () => {
   return (
     <div className={styles.home}>
       <section className={styles.text_main}>
-        <h1>The agency for what comes next.</h1>
+        <motion.h1
+          initial={{ y: 100 }}
+          animate={{ y: 0 }}
+          transition={{ ease: "easeOut", duration: 1, delay: 1.45 }}
+        >
+          <motion.span
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ ease: "easeOut", duration: 2, delay: 0.20 }}
+          >
+            The
+          </motion.span>
+          <motion.span
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ ease: "easeOut", duration: 2, delay: 0.40 }}
+          >
+            agency
+          </motion.span>
+          <motion.span
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ ease: "easeOut", duration: 2, delay: 0.60 }}
+          >
+            for
+          </motion.span>
+          <br />
+          <motion.span
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ ease: "easeOut", duration: 2, delay: 0.80 }}
+          >
+            what
+          </motion.span>
+          <motion.span
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ ease: "easeOut", duration: 2, delay: 1 }}
+          >
+            comes
+          </motion.span>
+          <motion.span
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ ease: "easeOut", duration: 2, delay: 1.20 }}
+          >
+            next.
+          </motion.span>
+        </motion.h1>
       </section>
       <Images />
       <section className={styles.text_sub}>
